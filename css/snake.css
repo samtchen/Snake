@@ -1,0 +1,160 @@
+@font-face {
+  font-family: PressStart2P;
+  src: url('PressStart2P.ttf');
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PressStart2P';
+}
+
+.snake-board {
+  display: inline-block;
+  background-color: #8FB26B;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 100px auto;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.overlay {
+  background-color: #8FB26B;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 100px auto;
+  border: 2px solid black;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.white-font {
+  z-index: 2;
+  color: white
+}
+
+ul {
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left;
+  padding:0px;
+  margin:1px;
+  width:20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #484845;
+}
+
+.apple {
+  background-color: #B10707;
+}
+
+.start {
+  font-family: 'PressStart2P';
+  font-size: 10px;
+}
+
+.scores {
+  font-size: 10px;
+  margin: 110px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 400px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.restart {
+  font-family: 'PressStart2P';
+  font-size: 10px;
+}
+
+.title {
+  margin: 50px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 400px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+div.hidden {
+  display: none;
+}
+
+.button {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 400px;
+  height: 20px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.prompt {
+  font-size: 14px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 90px;
+  top: 0;
+  width: 400px;
+  height: 20px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.controls {
+  width: 440px;
+  position: relative;
+  top: 18px;;
+  margin: auto;
+}
+
+.controls > img {
+  width: 100px;
+}
+
+.spacebar {
+  width: 440px;
+  position: relative;
+  top: -20px;
+  left: 308px;
+  margin: auto;
+}
+
+.spacebar > img {
+  width: 130px;
+}
