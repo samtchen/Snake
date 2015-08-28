@@ -147,6 +147,8 @@
       } else if (event.keyCode === 68) {
         that.board.snake.turn("E");
         $('body').off('keydown', arguments.callee);
+      } else if (event.keyCode == 32) {
+        $('body').off('keydown', arguments.callee);
       }
     });
   };
