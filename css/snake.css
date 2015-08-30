@@ -13,28 +13,28 @@ body {
 .snake-board {
   display: inline-block;
   background-color: #8FB26B;
-  width: 440px;
-  height: 440px;
+  width: 480px;
+  height: 480px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 100px auto;
+  margin: 100px auto 0px auto;
   border: 2px solid black;
   border-radius: 4px;
 }
 
 .overlay {
   background-color: #8FB26B;
-  width: 440px;
-  height: 440px;
+  width: 480px;
+  height: 480px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 100px auto;
+  margin: 100px auto 0px auto;
   border: 2px solid black;
   border-radius: 4px;
   z-index: 1;
@@ -56,8 +56,8 @@ li {
   float: left;
   padding:0px;
   margin:1px;
-  width:20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 
 .snake {

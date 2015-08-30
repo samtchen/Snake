@@ -149,9 +149,9 @@
   };
 
   Board.prototype.newGrid = function() {
-    var grid = new Array(20);
+    var grid = new Array(40);
     for (var i = 0; i < grid.length; i++) {
-      grid[i] = new Array(20);
+      grid[i] = new Array(40);
     }
     return grid;
   };

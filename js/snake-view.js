@@ -71,7 +71,7 @@
   };
 
   View.prototype.startInterval = function () {
-    this.interval = setInterval(this.step.bind(this), 100);
+    this.interval = setInterval(this.step.bind(this), 75);
   };
 
   View.prototype.setupRestart = function () {
@@ -98,11 +98,10 @@
   };
 
   View.prototype.render = function () {
+    // none html rendering
     // this.$el.empty();
     // this.$el.text(this.board.render());
-    // if(this.board.snake.eatApple()){
-    //   debugger;
-    // }
+
     this.updateClasses([this.board.apple.position], "apple");
     this.updateClasses(this.board.snake.segments, "snake");
   };
